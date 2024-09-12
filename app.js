@@ -1,8 +1,8 @@
 import express from 'express';
 import mongoose from 'mongoose';
 import bookRoutes from './routes/bookRoutes.js';
-import Book from './models/Book.js'; // Ensure path is correct
-import User from './models/User.js'; // Ensure path is correct
+import Book from './models/Book.js'; 
+import User from './models/User.js'; 
 
 
 const app = express();
