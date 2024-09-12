@@ -9,7 +9,7 @@ const app = express();
 app.use(express.json());
 
 // MongoDB Connection
-const mongoDBUrl = 'mongodb+srv://admin:kxhzc75vkKcbBIKk@cluster0.mojulta.mongodb.net/'; // Your MongoDB URL
+const mongoDBUrl = 'mongodb+srv://<username>:<password>@cluster0.mongodb.net/<database>?retryWrites=true&w=majority'; // Your MongoDB URL
 mongoose.connect(mongoDBUrl)
   .then(() => {
     console.log('Connected to MongoDB');
